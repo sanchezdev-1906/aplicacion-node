@@ -4,7 +4,8 @@
   "description": "Aplicacion de prueba para despliegue",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "keywords": [
     "javascript",
@@ -13,6 +14,10 @@
   "author": "Joel Sanchez",
   "license": "ISC",
   "devDependencies": {
+    "dotenv": "^16.3.1",
     "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
   }
 }
